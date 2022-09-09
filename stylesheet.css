@@ -1,0 +1,91 @@
+/* general style */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+/* header style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header ul {
+  overflow: hidden;
+  background-color: white;
+}
+li {
+  float: left;
+}
+header li {
+  margin: 20px 0px 10px 170px;
+}
+nav li {
+  margin: 20px 20px 20px 150px;
+}
+header li a {
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+#callUs {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+#callUs a {
+  color: black;
+}
+#callUs img {
+  width: 20px;
+  height: 20px;
+}
+#book {
+  background-color: #84160b;
+  display: block;
+  padding: 15px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+ul a:hover {
+  text-decoration: underline;
+}
+nav ul {
+  overflow: hidden;
+  background-color: #a2a99e;
+}
+nav ul a {
+  color: black;
+  font-size: 1.2em;
+  font-style: italic;
+}
+#subMenu ul {
+  overflow: hidden;
+  background-color: antiquewhite;
+  padding: 30px;
+  padding-left: 300px;
+}
+#subMenu ul #hab {
+  background-image: url(images/gallery.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+}
+#subMenu ul #nosotros {
+  background-image: url(images/gallery.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+}
+#subMenu ul #gallery {
+  background-image: url(images/gallery.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+}
