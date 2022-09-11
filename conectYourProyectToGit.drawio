@@ -1,1 +1,181 @@
-<mxfile host="app.diagrams.net" modified="2022-09-11T05:15:49.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.0" etag="IxsqgZ2afnFOKtjpd2a5" type="github"><diagram id="XHKMFKeZvseRaiF0RHay">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-11T09:23:12.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KwBMdyrScd_I_Ktx3IKG" version="20.3.0" type="github">
+  <diagram id="XHKMFKeZvseRaiF0RHay" name="Page-1">
+    <mxGraphModel dx="2919" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-43" value="cmd" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="80" width="730" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-1" value="check if git is installed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="400" y="137" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-12" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="460" y="247" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-13" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="525" y="172" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-15" target="JkuaCBaiPHOFXS6vOLTF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-15" value="start/cmd" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="425" y="62" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-23" value="git --version" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="310" y="177" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-24" value="install" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="590" y="157" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-1" target="JkuaCBaiPHOFXS6vOLTF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-36" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="700" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-24" target="JkuaCBaiPHOFXS6vOLTF-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-38" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="700" y="102" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-36" target="JkuaCBaiPHOFXS6vOLTF-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-67" value="&lt;div&gt;git config --global user.email &quot;yourGitHub@email.com&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; git config --global user.name &quot;yourGitHubusername&quot;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="90" y="346" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-65" target="JkuaCBaiPHOFXS6vOLTF-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-65" value="Add github email,username" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="410" y="361" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-1" target="JkuaCBaiPHOFXS6vOLTF-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-70" value="go to loaction folder" style="whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="410" y="501" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-72" value="cd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="330" y="516" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-75" value="git init" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="340" y="656" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-76" value="ls -a // to see hidden files&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="525" y="656" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-73" target="JkuaCBaiPHOFXS6vOLTF-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-73" value="Add git(hidden file)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="410" y="641" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-70" target="JkuaCBaiPHOFXS6vOLTF-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-91" value="use commands" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="415" y="740" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-89" value="git status&lt;br&gt;git add&lt;br&gt;git push&amp;nbsp;&lt;br&gt;git commint -m &quot;&amp;nbsp; foldername &quot;&lt;br&gt;git log&lt;br&gt;git help" style="whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="220" y="720" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-43" source="JkuaCBaiPHOFXS6vOLTF-91" target="JkuaCBaiPHOFXS6vOLTF-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-98" value="git remote add orign SSH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="220" y="890" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-103" value="push file to repository" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="410" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-105" value="git push -u orign master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-43">
+          <mxGeometry x="250" y="1030" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-45" value="GitHub" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="460" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-45" source="JkuaCBaiPHOFXS6vOLTF-49" target="JkuaCBaiPHOFXS6vOLTF-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-49" value="start/&lt;b&gt;github&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="100" y="60" width="120" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-45" source="JkuaCBaiPHOFXS6vOLTF-51" target="JkuaCBaiPHOFXS6vOLTF-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-45" source="JkuaCBaiPHOFXS6vOLTF-51" target="JkuaCBaiPHOFXS6vOLTF-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-51" value="log-in" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="120" y="159" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-45" source="JkuaCBaiPHOFXS6vOLTF-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-52" value="create Account" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="255" y="156.5" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="199" as="sourcePoint" />
+            <mxPoint x="415" y="139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-54" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="525" y="162" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-102" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="139" as="sourcePoint" />
+            <mxPoint x="160" y="137" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-56" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="525" y="102" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-61" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="162.5" y="239" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-62" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="190" y="199" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-63" value="create Repository" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="120" y="299" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-92" value="copy ssh" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JkuaCBaiPHOFXS6vOLTF-45">
+          <mxGeometry x="220" y="457" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JkuaCBaiPHOFXS6vOLTF-45" source="JkuaCBaiPHOFXS6vOLTF-63" target="JkuaCBaiPHOFXS6vOLTF-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-104" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JkuaCBaiPHOFXS6vOLTF-96" target="JkuaCBaiPHOFXS6vOLTF-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-96" value="connect : local machine &amp;amp; github" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JkuaCBaiPHOFXS6vOLTF-91" target="JkuaCBaiPHOFXS6vOLTF-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JkuaCBaiPHOFXS6vOLTF-101" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JkuaCBaiPHOFXS6vOLTF-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
